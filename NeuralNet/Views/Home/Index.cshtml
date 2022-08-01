@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Digit Recognition";
+}
+
+<div class="text-center" style="margin-top: 5px">
+   <canvas id="sheet" width="400" height="400" style="border: 1px solid black"></canvas>
+</div>
+<div class="text-center">
+    <input type="button" class="btn btn-outline-dark" onmousedown="recognize()" style="width: 200px" value="Recognize"/>
+    <input type="button" class="btn btn-outline-dark" onmousedown="clearcanvas()" style="width: 200px" value="Clear"/>
+</div>
+<div class="d-flex bd-highlight">
+  <div class="p-2 flex-fill bd-highlight"></div>
+  <div class="p-2 flex-fill bd-highlight h4" id="result">>>></div>
+  <div class="p-2 flex-fill bd-highlight"></div>
+</div>
