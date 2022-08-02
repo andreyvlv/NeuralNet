@@ -12,6 +12,12 @@ a {
   color: #0366d6;
 }
 
+.custom-button {
+    border-radius: 0px !important;
+    width: 199px;
+    margin-top: -3px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
